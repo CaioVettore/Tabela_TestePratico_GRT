@@ -34,10 +34,9 @@ function acrescentarNovoUsuario(objetoUsuario) {
 
         tr.appendChild(td);
     }
+
     arrayUsuarios.push(objetoUsuario)
 
-    console.log(arrayUsuarios)
-    console.log(arrayUsuarios.length - 1)
     var indexUsuario = arrayUsuarios.length - 1
 
     createButtonRemove(tr, indexUsuario)
@@ -63,11 +62,6 @@ function createButtonRemove(tr, indexUsuario) {
     var td = document.createElement('td');
     td.appendChild(buttonRemove);
     tr.appendChild(td);
-}
-
-function recreateContent() {
-    var element = document.getElementById('nossosUsuarios');
-    element.innerHTML = '';
 }
 
 function organizarTabela() {
