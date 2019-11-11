@@ -1,0 +1,56 @@
+.tabela {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-style: unset;
+    background-color: #151018;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.tabela h1 {
+    border-bottom: 1px solid white;
+}
+
+.tabela button {
+    border: 0;
+    font-size: 18px;
+    background-color: #712b86;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 15px;
+    width: 130px;
+    margin-bottom: 10px
+}
+
+.tabelaUsuarios {
+    font-family: arial, sans-serif;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tabelaUsuarios td,
+th {
+    border: 1px solid #aa3cc9;
+    text-align: center;
+    padding: 8px;
+    color: #000;
+    font-size: 18px
+}
+
+.tabelaUsuarios tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.tabela span {
+    margin-top: 15px;
+    color: #da52ff;
+}
+
+.tabela input {
+    border-radius: 5px
+}

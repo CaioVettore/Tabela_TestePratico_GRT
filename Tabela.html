@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+    <title>Teste GRT</title>
+</head>
+
+<body>
+    <div class="tabela">
+        <h1>Tabela</h1>
+
+        <span>Nome:</span>
+        <input type="text" id="input_nome" style="text-align: center">
+        <span>Idade:</span>
+        <input type="number" id="input_idade" max="110">
+
+
+        <button onclick="adicionarUsuario()">Adicionar</button>
+
+        <table class="tabelaUsuarios">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th onclick="organizarTabela()">Idade</th>
+                    <th>Remover</th>
+
+                </tr>
+            </thead>
+            <tbody id="nossosUsuarios">
+            </tbody>
+        </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/js/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
